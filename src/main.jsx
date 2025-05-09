@@ -1,10 +1,10 @@
-import React from 'react'
-import ReactDOM from 'react-dom/client'
-import './index.css'
-import FechamentoCaixa from './FechamentoCaixa'
+import React from 'react';
+import ReactDOM from 'react-dom/client';
+import './index.css';
+import PDV from './PDV';
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
-    <FechamentoCaixa />
-  </React.StrictMode>,
-)
+    <PDV />
+  </React.StrictMode>
+);
